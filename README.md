@@ -1,2 +1,7 @@
 # WAM-DEMO
 Assignment for WAM interview
+
+Interview Questions:
+
+There is a snippet of your question that I think really captures the difficult nature of trying to maintain a hard schedule with progrmming. "These issues typically take only a few minutes, but occasionally up to a couple hours". There is no getting around the fact that sometimes even when the path forward seems clear, you ultimately hit some kind of road block that sends you on a wild goose chase until the wee hours of the morning. My first question whenever being assigned multiple projects would be "Are these tasks equally as important?" Based just on the tone of the tasks I've been assigned, it would seem to me that the first two tasks involve a deliverable to a client, while the last one has is more of a research and development type of project. I would assume our first priority is to the client, and would likely save that R&D project for after I have completed the other two. I would also aim to stack my hours toward the beginning of the week, ideally having put in 30 hours by EOD Wednesday. By that point, I would have a pretty good idea of if I was going to be able to complete all tasks by the end of the next day. If something took much longer than expected, I can contact whoever is in charge, and either work a full day Thursday to get everything complete, or readjust our expected delivery dates, should the team not want me to exceed the 35 hour mark for the given project.
+
