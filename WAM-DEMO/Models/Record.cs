@@ -16,12 +16,36 @@ namespace WAM_DEMO.Models
             var records = new List<Record>();
             records.Add(new Record
             {
+                FirstName = "Amy",
+                LastName = "Smith",
+                Position = "CEO"
+            });
+            records.Add(new Record
+            {
+                FirstName = "John",
+                LastName = "Doe",
+                Position = "Vice President"
+            });
+            records.Add(new Record
+            {
+                FirstName = "Laura",
+                LastName = "Jones",
+                Position = "HR Manager"
+            });
+            records.Add(new Record
+            {
                 FirstName = "Bob",
-                LastName = "Loblaw",
-                Position = "Lawyer/Blogger"
+                LastName = "Jones",
+                Position = "Developer"
+            });
+            records.Add(new Record
+            {
+                FirstName = "Tim",
+                LastName = "Jones",
+                Position = "Developer"
             });
             return records;
-            
+
         }
 
     }
