@@ -10,6 +10,7 @@ Here's what I think my week would look like
 <table>
 <tr>
 <th>Friday</th><th>Saturday</th><th>Sunday</th><th>Monday</th><th>Tuesday</th><th>Wednesday</th><th>Thursday</th><th>Friday</th>
+</tr><tr>
 <td>Receive assignment, spend the end of day getting started</td><td>Off</td><td>3-4 hours in the evening on Kitt development</td>
 <td>9-10 hours on new Kitt module</td><td>3-4 hours on UI bugs,5-6 hours on Kitt module</td>
 
