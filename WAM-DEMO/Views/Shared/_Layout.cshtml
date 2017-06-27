@@ -7,36 +7,36 @@
     @Styles.Render("~/Content/css")
     @Scripts.Render("~/bundles/modernizr")
 </head>
-<body>
-    <div class="navbar navbar-inverse navbar-fixed-top">
-        <div class="container">
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                @Html.ActionLink("Application name", "Index", "Home", new { area = "" }, new { @class = "navbar-brand" })
-            </div>
-            <div class="navbar-collapse collapse">
-                <ul class="nav navbar-nav">
-                    <li>@Html.ActionLink("Home", "Index", "Home")</li>
-                    <li>@Html.ActionLink("About", "About", "Home")</li>
-                    <li>@Html.ActionLink("Contact", "Contact", "Home")</li>
-                </ul>
+<body  ng-app="searchApp">
+    <div class="container body-content">
+        <div class="col-md-offset-2 col-md-8">
+            <div class="panel panel-primary">
+                <div class="panel-heading">
+                    Search.
+                </div>
+                <div class="panel-body" ng-controller="SearchController">
+                    @RenderBody()
+                </div>
             </div>
         </div>
-    </div>
-    <div class="container body-content">
-        @RenderBody()
-        <hr />
-        <footer>
-            <p>&copy; @DateTime.Now.Year - My ASP.NET Application</p>
-        </footer>
     </div>
 
     @Scripts.Render("~/bundles/jquery")
     @Scripts.Render("~/bundles/bootstrap")
     @RenderSection("scripts", required: false)
 </body>
+<script>
+    // Define the `phonecatApp` module
+    var searchApp = angular.module('searchApp', []);
+
+    // Define the `PhoneListController` controller on the `phonecatApp` module
+    searchApp.controller('SearchController', function PhoneListController($scope,$http) {
+        $scope.startSearch = function () {
+            $http.post("/Search/Search", { query: $scope.searchText }).then(function (response) {
+                $scope.results = response.data;
+            });
+        }
+    });
+
+</script>
 </html>
