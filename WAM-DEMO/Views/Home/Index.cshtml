@@ -1,5 +1,5 @@
 ﻿@{
-    ViewBag.Title = "Home Page";
+    ViewBag.Title = "WAM Search";
 }
 
 
@@ -10,7 +10,8 @@
             <button class="btn btn-primary" ng-click="startSearch()" type="button">Find It!</button>
         </span>
     </div>
-    <ul>
-        <li ng-repeat="result in results">{{result.FirstName + " " + result.LastName + " Position: " + result.Position}}</li>
+    <hr/>
+    <ul class="col-md-offset-1 col-md-10 list">
+        <li class="pad-5" ng-repeat="result in results"><strong>Name: </strong>{{result.LastName + ", " + result.FirstName}}<br/> <strong>Postition: </strong> {{result.Position}}</li>
     </ul>
 </div>

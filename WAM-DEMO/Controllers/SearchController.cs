@@ -12,6 +12,10 @@ namespace WAM_DEMO.Controllers
         public ActionResult Search(string query)
         {
             var data = Record.GetDummyData();
+            if (string.IsNullOrEmpty(query))
+            {
+                return Json(data);
+            }
             query = query.ToLower();
             var searched = data.Where(d => d.FirstName.ToLower().Contains(query) || d.LastName.ToLower().Contains(query) || d.Position.ToLower().Contains(query));
             return Json(searched);
