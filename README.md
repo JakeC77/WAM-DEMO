@@ -1,6 +1,10 @@
 # WAM-DEMO
 Assignment for WAM interview
 
+This app is running live at:
+
+<strong><a href="http://wamdemo.azurewebsites.net/">http://wamdemo.azurewebsites.net/</a></strong>
+
 <h1>Interview Questions:</h1>
 
   There is a snippet of your question that I think really captures the difficult nature of trying to maintain a hard schedule with progrmming. "These issues typically take only a few minutes, but occasionally up to a couple hours". There is no getting around the fact that sometimes even when the path forward seems clear, you ultimately hit some kind of road block that sends you on a wild goose chase until the wee hours of the morning. I find it better to think of things in terms of a priority queue as opposed to a set schedule. My first question whenever being assigned multiple projects would be "Are these tasks equally as important? What is the top priority?" Based on the tone of the tasks I've been assigned, it would seem to me that the Kitt tasks involve a deliverable to a client, while the last one has is more of a research and development type of project, that doesn't have a solid deadline. I would assume our first priority is to the client, and would likely save that R&D project for after I have completed the other two (I would make sure this assumption is true by consulting the project lead of course). This makes sure if I do go on a wild goose chase for half a day, that the most important stuff is getting delivered.
